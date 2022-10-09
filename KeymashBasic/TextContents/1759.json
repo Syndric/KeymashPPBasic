@@ -1,0 +1,1 @@
+{"_id":"Bvx9SH5jwkedYbGhj","textId":1759,"content":"A guard is basically a boolean expression. If it evaluates to True, then the corresponding function body is used. If it evaluates to False, checking drops through to the next guard and so on.","author":"Miran Lipovača","source":"Learn You a Haskell","contributor":"ClemenPine#2908","locale":"en","enabled":1,"created":1626686246}
