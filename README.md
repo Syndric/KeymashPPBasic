@@ -1,20 +1,19 @@
 # KeymashPPBasic
-Calculates star ratings for Keymash PP
+Calculates star ratings for Keymash PP. Star ratings measure the difficulty of typing a string of text with a generic keyboard layout. 
 
-### How to run
+## How to run
 1. Drag KeymashBasic to your Desktop
 2. Navigate to "KeymashPPBasic/KeymashPPBasic". From there, do "dotnet run". You're in the right place if you see a .csproj file
 3. Use "help" to see commands. Pull texts if you want to update them or you don't have them. Use fcrating to calculate the ratings.
 
-### KeymashBasic
+## KeymashBasic
 If you want to add your own quotes, copy the format of a valid quote in textContents such as textID 2. Assign a separate textID and file name.
 
 All calculations will be found in textRatings.
 
 If you delete combos.json, it will break.
 
-###
-A litte bit more about the combo list:
+### A litte bit more about the combo list:
 Basically, the combo list is a frequency list of letter combos, up to five letters long.  It ignores all punctuation, spacing, and is case sensitive.
 A word such as "the" will appear in the combo list as "the".
 A word such as "however" will appear in the combo list as "howev", "oweve", "wever"
